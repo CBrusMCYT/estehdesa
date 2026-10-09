@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Es Teh Desa</title>
+<link rel="stylesheet" href="style.css">
+<style>html { scroll-behavior: smooth; } body { margin: 0; }</style>
+</head>
+<body>
+
+<div id="etd">
+
+  <div class="etd-intro" id="etd-intro">
+    <img id="etd-logo-intro" alt="Logo Es Teh Desa">
+    <div class="etd-intro-nama">Es Teh Desa</div>
+    <div class="etd-intro-bar"><i></i></div>
+  </div>
+
+  <div class="etd-nav" role="navigation">
+    <a class="etd-logo" href="#home" data-page="home"><img id="etd-logo-nav" alt=""><span>Es Teh Desa</span></a>
+    <button class="etd-menubtn" type="button" aria-expanded="false" aria-controls="etd-drawer"><span class="etd-garis"></span><span>Menu</span></button>
+    <div class="etd-drawer" id="etd-drawer">
+      <a href="#home" data-page="home" style="--i:0">Home</a>
+      <a href="#info" data-page="info" style="--i:1">Info</a>
+      <a href="#harga" data-page="harga" style="--i:2">Harga Es</a>
+      <a href="#kelompok" data-page="kelompok" style="--i:3">Kelompok 5</a>
+    </div>
+  </div>
+
+  <section id="etd-home" class="etd-page etd-hero">
+    <div class="etd-wadah">
+      <img id="etd-logo-home" alt="Logo Es Teh Desa">
+      <h1>Es Teh Desa</h1>
+      <p>Es teh dengan banyak pilihan rasa, dibuat dari bahan segar.</p>
+      <a class="etd-tombol" href="#harga" data-page="harga">Lihat harga es</a>
+    </div>
+  </section>
+
+  <section id="etd-info" class="etd-page">
+    <div class="etd-wadah">
+      <h2>Apa itu Es Teh Desa?</h2>
+      <p class="etd-sub">Es Teh Desa adalah merek minuman es teh dengan berbagai varian rasa, mulai dari teh original sampai macchiatto dan fruit series. Berdiri sejak tahun 2021 dan kini sudah tersebar di banyak kota di Indonesia.</p>
+      <div class="etd-info-grid">
+        <div class="etd-info-kartu"><strong>Sejak 2021</strong><span>Mulai hadir dan terus berkembang</span></div>
+        <div class="etd-info-kartu"><strong>10.000+</strong><span>Mitra di seluruh Indonesia</span></div>
+        <div class="etd-info-kartu"><strong>100% fresh</strong><span>Menggunakan bahan segar</span></div>
+        <div class="etd-info-kartu"><strong>Halal dan legal</strong><span>Terverifikasi MUI dan terdaftar DJKI</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="etd-harga" class="etd-page etd-putih">
+    <div class="etd-wadah">
+      <h2>Harga Es</h2>
+      <p class="etd-sub">Semua varian rasa Es Teh Desa beserta harganya. Geser ke samping untuk melihat semuanya.</p>
+      <div class="etd-pembungkus">
+        <div class="etd-geser">
+          <div class="etd-gulir" tabindex="0" aria-label="Daftar varian es teh dan harga, geser ke samping">
+            <div class="etd-baris-2" id="etd-grid-es"></div>
+          </div>
+        </div>
+        <div class="etd-bar"><div class="etd-thumb"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="etd-kelompok" class="etd-page">
+    <div class="etd-wadah">
+      <h2>Kelompok 5</h2>
+      <p class="etd-sub">Anggota kelompok yang menyusun halaman ini. Geser ke samping untuk melihat semuanya.</p>
+      <div class="etd-pembungkus">
+        <div class="etd-geser">
+          <div class="etd-gulir" tabindex="0" aria-label="Anggota Kelompok 5, geser ke samping">
+            <div class="etd-tim" id="etd-tim"></div>
+          </div>
+        </div>
+        <div class="etd-bar"><div class="etd-thumb"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="etd-footer">Es Teh Desa</div>
+  <div class="etd-rahasia">Aura &hearts; Kenzie</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
